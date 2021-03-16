@@ -1,0 +1,2 @@
+# execute docker stats command with container names
+docker stats $(docker ps --format={{.Names}})
